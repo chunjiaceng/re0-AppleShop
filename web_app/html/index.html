@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      body {
+        margin: 0;
+        height: 100vh;
+        background-color: #eee;
+      }
+      .colu {
+        flex-direction: column;
+      }
+      .flex {
+        display: flex;
+      }
+      .flex1 {
+        flex: 1;
+      }
+
+      .caidan {
+        height: 20px;
+        padding: 10px;
+        background-color: rgb(50, 50, 51);
+      }
+      .rma {
+        margin: right 8px;
+      }
+      .lma {
+        margin-left: 8px;
+      }
+      .tma {
+        margin-top: 8px;
+      }
+      .bma {
+        margin-bottom: 8px;
+      }
+      .item {
+        margin: 0, 0, 8px;
+        flex: auto;
+      }
+      .white {
+        background-color: white;
+      }
+      .row {
+        flex-direction: row;
+      }
+      .mainblock {
+        height: 630px;
+      }
+      .photo {
+        width: 700px;
+        height: 550px;
+      }
+    </style>
+  </head>
+  <body class="colu">
+    <!--上方菜单栏-->
+    <div class="caidan flex row">
+      <!--logo区-->
+      <div class="item rma flex1 flex" style="justify-content: center">
+        <img
+          src="../img/apple (1).png"
+          alt=""
+          style="width: 20px; height: 20px"
+        />
+      </div>
+      <!--store区-->
+      <div class="item rma flex1">
+        <p style="color: rgb(214, 214, 214); margin: 0%; text-align: center">
+          store
+        </p>
+      </div>
+      <!--ipone-->
+      <div class="item rma">
+        <p style="color: rgb(214, 214, 214); margin: 0%; text-align: center">
+          ipone
+        </p>
+      </div>
+      <!--ipad区-->
+      <div class="item rma flex1">
+        <p style="color: rgb(214, 214, 214); margin: 0%; text-align: center">
+          ipad
+        </p>
+      </div>
+    </div>
+    <!--穿插帮助栏-->
+    <p
+      style="
+        text-align: center;
+        font-size: 12px;
+        color: gray;
+        margin: 0;
+        padding: 3px;
+      "
+    >
+      如果需要帮助请点击<a href="">这里</a>
+    </p>
+    <!--下方主要内容-->
+    <div class="flex colu">
+      <!--四个模块-->
+      <div class="mainblock white" style="margin: 10px">
+        <img
+          src="../img/Snipaste_2022-06-16_09-53-55.png"
+          alt=""
+          style="width: 1490px; height: 630px; margin: 0px"
+        />
+      </div>
+      <div class="mainblock white" style="margin: 10px">
+        <img
+          src="../img/Snipaste_2022-06-16_09-57-33.png"
+          alt=""
+          style="width: 1490px; height: 630px; margin: 0px"
+        />
+      </div>
+      <div class="mainblock white flex row" style="margin: 10px">
+        <div
+          style="flex: 1; align-items: center; justify-content: center"
+          class="flex"
+        >
+          <img
+            src="../img/Snipaste_2022-06-16_09-22-06.png"
+            alt=""
+            class="photo"
+          />
+        </div>
+        <div
+          style="flex: 1; align-items: center; justify-content: center"
+          class="flex"
+        >
+          <img
+            src="../img/Snipaste_2022-06-16_09-43-49.png"
+            alt=""
+            class="photo"
+          />
+        </div>
+      </div>
+      <div class="mainblock white row flex" style="margin: 10px">
+        <div
+          style="flex: 1; align-items: center; justify-content: center"
+          class="flex"
+        >
+          <img
+            src="../img/Snipaste_2022-06-16_09-51-30.png"
+            alt=""
+            class="photo"
+          />
+        </div>
+        <div
+          style="flex: 1; align-items: center; justify-content: center"
+          class="flex"
+        >
+          <img
+            src="../img/Snipaste_2022-06-16_09-51-43.png"
+            alt=""
+            class="photo"
+          />
+        </div>
+      </div>
+      <div class="mainblock white row flex" style="margin: 10px">
+        <div
+          style="flex: 1; align-items: center; justify-content: center"
+          class="flex"
+        >
+          <img
+            src="../img/Snipaste_2022-06-16_09-51-59.png"
+            alt=""
+            class="photo"
+          />
+        </div>
+        <div
+          style="flex: 1; align-items: center; justify-content: center"
+          class="flex"
+        >
+          <img
+            src="../img/Snipaste_2022-06-16_09-52-06.png"
+            alt=""
+            class="photo"
+          />
+        </div>
+      </div>
+    </div>
+    <hr style="color: white" class="flex flex1" />
+    <div class="flex flex1" style="justify-content: center">
+      <p style="font-size: 10px">
+        More ways to shop: Find an <a href="">Apple Store</a> or other retailer
+        near you. Or call 800-908-988.
+      </p>
+    </div>
+  </body>
+</html>
